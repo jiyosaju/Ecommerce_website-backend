@@ -66,7 +66,7 @@ useEffect(() => {
 
    try {
      const response = await axios.post(
-       "https://ecommerce-backend-2-8qlh.onrender.com/api/users/register",
+       "http://localhost:8000/api/users/register",
        {
          username,
          email,
